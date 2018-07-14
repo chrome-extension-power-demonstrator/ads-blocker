@@ -1,0 +1,13 @@
+{
+   "browser_action": {
+      "default_icon": "browser_icon.png",
+      "default_title": "Remove ADS Html Element"
+   },
+   "description": "You can remove ADS html element on your google search web page by using this extension. Thanks for using our extension!",
+    "icons": { "128": "icon.png" },
+   "name": "Remove ADS",
+   "permissions": [ "webNavigation", "tabs", "http://*/*", "https://*/*" ],
+   "version": "1.0.0",
+   "manifest_version": 2,
+   "background": { "scripts": ["background.js"] }
+}
